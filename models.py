@@ -15,7 +15,7 @@ class YoutubeModel:
     """
     
     def __init__(self):
-        self.yt: Optional[Youtube] = None 
+        self.yt: Optional[YouTube] = None 
         self.download_path: str = os.path.join(os.path.expanduser("~"), "Downloads")
         self.quality: str = "highest"
         self.download_progress: float = 0
