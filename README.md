@@ -7,3 +7,6 @@ clean and fresh GUI.
 
 The Application allows users to download YouTube videos by copying the video url on a input field.
 
+## Screenshots
+
+![alt text](assets/Screenshot.jpg)
