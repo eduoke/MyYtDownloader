@@ -37,7 +37,7 @@ a = Analysis(
     noarchive=False,
     optimize=0,
 )
-pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+pyz = PYZ(a.pure, a.zipped_data, cipher=black_cipher)
 
 exe = EXE(
     pyz,
