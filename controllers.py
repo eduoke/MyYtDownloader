@@ -1,8 +1,8 @@
 import os
 import threading 
 
-from .models import YouTubeModel
-from .views import YouTubeView
+from models import YoutubeModel
+from views import YouTubeView
 
 
 class YouTubeController:
@@ -10,7 +10,7 @@ class YouTubeController:
     
     def __init__(self, root):
         # Create model and view
-        self.model = YouTubeModel()
+        self.model = YoutubeModel()
         self.view = YouTubeView(root)
         
         # Initialize view with model data

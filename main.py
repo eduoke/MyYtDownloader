@@ -1,5 +1,5 @@
 import ttkbootstrap as ttk
-from .controllers import YouTubeController
+from controllers import YouTubeController
 
 def main():
     root = ttk.Window()
