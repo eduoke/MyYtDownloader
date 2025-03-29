@@ -1,11 +1,7 @@
-import tkinter as tk 
-from tkinter import filedialog, messagebox
-import ttkbootstrap as ttk
-from ttkbootstrap.constants import *
-from pytube import YouTube
-import threading 
 import os 
 import re 
+from ttkbootstrap.constants import *
+from pytube import YouTube
 from typing import Callable, Dict, List, Optional, Tuple 
 
 
