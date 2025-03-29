@@ -1,9 +1,17 @@
+import os
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
-from pytube import YouTube
-from typing import Callable, Dict, List, Optional, Tuple
+from ttkbootstrap.themes import user_themes
+from typing import Callable
+
+
+# Register the custom theme
+theme_path = os.path.join(os.path.dirname(__file__), "themes", "superhero.json")
+if os.path.exists(theme_path):
+    user_themes.load_themes(theme_path)
+    
 
 class YouTubeView:
     """View: Handles UI elements and user interaction"""
